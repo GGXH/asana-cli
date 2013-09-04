@@ -10,7 +10,7 @@ var program = require('commander'),
     exec    = require('child_process').exec,
     spawn   = require('child_process').spawn,
 
-    CONFIG  = JSON.parse(fs.readFileSync('./config.json')),
+    CONFIG  = JSON.parse(fs.readFileSync('~/.asana.json')),
     ASANA_KEY = CONFIG['API_KEY'],
     ASANA   = CONFIG['API_URL'] + CONFIG['API_VERSION'];
 

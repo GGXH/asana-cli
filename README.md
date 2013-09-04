@@ -8,10 +8,23 @@ A CLI for Asana.
 
 ## Install
 ==========
+Install from npm.
 
-1. `git clone git@github.com:h4rry/asana-cli.git`
-2. `npm install -g .`
-3. Edit `config-template.json` and put your [Asana API Key](http://app.asana.com/-/account_api) in there. Then rename `config-template.json` to `config.json` when you are done.
+```sh
+npm install -g asana-cli
+```
+
+Then write your `~/.asana.json` file. It should look like this.
+
+```json
+{
+  "API_KEY": "YOUR ASANA API KEY",
+  "API_URL":  "https://app.asana.com/api/",
+  "API_VERSION": "1.0"
+}
+```
+
+You can find your Asana API Key [here](http://app.asana.com/-/account_api).
 
 <br/>
 
