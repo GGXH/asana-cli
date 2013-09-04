@@ -1,8 +1,8 @@
 {
   "author": "Harrison Shoff <hi@hshoff.com> (www.computerthefuture.com)",
   "maintainers": [ "Thomas Levine <occurrence@thomaslevine.com>" ],
-  "name": "Asana",
-  "description": "Asana cli",
+  "name": "asana-cli",
+  "description": "Command-line interface to Asana (asana.com)",
   "version": "0.0.2",
   "homepage": "https://github.com/h4rry/asana-cli",
   "repository": {
