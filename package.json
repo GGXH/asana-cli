@@ -1,5 +1,6 @@
 {
   "author": "Harrison Shoff <hi@hshoff.com> (www.computerthefuture.com)",
+  "maintainers": [ 'Thomas Levine <occurrence@thomaslevine.com>' ],
   "name": "Asana",
   "description": "Asana cli",
   "version": "0.0.1",
